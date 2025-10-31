@@ -1,0 +1,26 @@
+{
+    "nomeLivro": "Receitas divônicas",
+    "categoria": [
+        {
+            "nomeCategoria": "Sobremesas",
+            "receita": [
+                {
+                    "nomeReceita": "Brigadeiro",
+                    "ingredientes": ["Leite condensado", "Margarina", "Cacau"],
+                    "preparo": "Coloque todos os ingredientes na panela e mexa em fogo baixo por 10 minutos."
+                }
+            ]
+        },
+
+        {
+            "nomeCategoria": "Salgados",
+            "receita": [
+                {
+                    "nomeReceita": "Pipoca",
+                    "ingredientes": ["Milho", "Óleo"],
+                    "preparo": "Coloque todos os ingredientes na panela e deixa estourar."
+                }
+            ]
+        }
+    ]
+}

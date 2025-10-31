@@ -1,3 +1,7 @@
+import json from "./data.json"
+
+const data = json as LivroReceitas;
+
 type LivroReceitas = {
     nomeLivro: string;
     categoria: Array<Categorias>;
@@ -11,7 +15,7 @@ type Categorias = {
 type CardReceita = {
     nomeReceita: string;
     ingredientes: Array<string>;
-    preparo: Array<string>;
+    preparo: string;
 }
 
 function App() {
