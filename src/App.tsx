@@ -22,7 +22,8 @@ type CardReceita = {
 function App() {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <h1>{data.nomeLivro}</h1>
+      <LivroReceitas livro={data}/>
     </div>
   )
 }
