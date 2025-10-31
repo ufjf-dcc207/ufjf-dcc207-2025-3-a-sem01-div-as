@@ -1,8 +1,9 @@
 import json from "./data.json"
+import LivroReceitas from "./LivroReceitas";
 
 const data = json as LivroReceitas;
 
-type LivroReceitas = {
+export type LivroReceitas = {
     nomeLivro: string;
     categoria: Array<Categorias>;
 }
@@ -20,8 +21,10 @@ type CardReceita = {
 
 function App() {
   return (
-   <h1>Hello, world!</h1>
- )
+    <div>
+      <h1>Hello, world!</h1>
+    </div>
+  )
 }
 
 export default App
