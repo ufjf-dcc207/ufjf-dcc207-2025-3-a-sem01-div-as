@@ -1,4 +1,5 @@
 import type { LivroReceitas } from "./App.tsx"
+import "./LivroReceitas.css"
 
 type LivroReceitasProps = {
     livro: LivroReceitas;

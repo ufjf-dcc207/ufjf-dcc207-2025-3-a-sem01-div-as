@@ -1,5 +1,6 @@
 import json from "./data.json"
 import LivroReceitas from "./LivroReceitas";
+import "./App.css"
 
 const data = json as LivroReceitas;
 
