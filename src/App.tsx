@@ -18,6 +18,7 @@ type CardReceita = {
     nomeReceita: string;
     ingredientes: Array<string>;
     preparo: string;
+    imagem: string;
 }
 
 function App() {

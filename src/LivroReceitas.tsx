@@ -12,6 +12,7 @@ export default function LivroReceitas({livro}: LivroReceitasProps) {
           <ul>
             {c.receita.map((r) => (
               <li key={r.nomeReceita}>
+                {r.imagem && <img src={r.imagem} alt={r.nomeReceita} className="imagem-receita" />}
                 <h3>{r.nomeReceita}</h3>
                 <h4>Ingredientes: </h4>
                 <ul>
