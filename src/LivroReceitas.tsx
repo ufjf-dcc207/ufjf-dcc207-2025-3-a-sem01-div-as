@@ -12,8 +12,14 @@ export default function LivroReceitas({livro}: LivroReceitasProps) {
             {c.receita.map((r) => (
               <li key={r.nomeReceita}>
                 <h3>{r.nomeReceita}</h3>
-                <h4>Ingredientes: {r.ingredientes}</h4>
-                <h4>{r.preparo}</h4>
+                <h4>Ingredientes: </h4>
+                <ul>
+                  {r.ingredientes.map((ingrediente, i) => (
+                    <li key={i}>{ingrediente}</li>
+                  ))}
+                </ul>
+                <h4>Modo de Preparo:</h4>
+                <p>{r.preparo}</p>
               </li>
             ))}
           </ul>
