@@ -1,5 +1,6 @@
 import type { LivroReceitas } from "./App.tsx"
 import "./LivroReceitas.css"
+import CardReceita from "./CardReceita";
 
 type LivroReceitasProps = {
     livro: LivroReceitas;
@@ -11,18 +12,15 @@ export default function LivroReceitas({livro}: LivroReceitasProps) {
             {livro.categoria.map((c) => (<div key={c.nomeCategoria}><h2>{c.nomeCategoria}</h2>
           <ul>
             {c.receita.map((r) => (
-              <li key={r.nomeReceita}>
-                {r.imagem && <img src={r.imagem} alt={r.nomeReceita} className="imagem-receita" />}
-                <h3>{r.nomeReceita}</h3>
-                <h4>Ingredientes: </h4>
-                <ul>
-                  {r.ingredientes.map((ingrediente, i) => (
-                    <li key={i}>{ingrediente}</li>
-                  ))}
-                </ul>
-                <h4>Modo de Preparo:</h4>
-                <p>{r.preparo}</p>
-              </li>
+              <CardReceita 
+                key={r.nomeReceita}
+                nome={r.nomeReceita}
+                ingredientes={r.ingredientes}
+                preparo={r.preparo}
+                imagem={r.imagem}
+                dificuldade={r.dificuldade}
+                tempo={r.tempo}
+              />
             ))}
           </ul>
         </div>

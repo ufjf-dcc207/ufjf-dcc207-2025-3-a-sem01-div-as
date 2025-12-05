@@ -113,5 +113,14 @@
     text-align: justify;
     width: 100%;
     margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#extra {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #5b21b6;
+    border-bottom: 2px solid #c4b5fd;
+    padding-bottom: 0.5rem;
     margin-bottom: 0.9rem;
 }

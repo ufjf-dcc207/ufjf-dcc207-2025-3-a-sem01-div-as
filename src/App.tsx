@@ -19,6 +19,8 @@ type CardReceita = {
     ingredientes: Array<string>;
     preparo: string;
     imagem: string;
+    dificuldade: string;
+    tempo: string;
 }
 
 function App() {

@@ -8,13 +8,17 @@
                     "nomeReceita": "Brigadeiro",
                     "ingredientes": ["1 lata de leite condensado", "1 colher de sopa de margarina", "2 colheres de sopa de cacau em pó"],
                     "preparo": "Coloque todos os ingredientes em uma panela e mexa em fogo baixo até engrossar, por aproximadamente 10 minutos. Depois, modele em bolinhas se desejar.",
-                    "imagem": "/img/brigadeiro.jpg"
+                    "imagem": "/img/brigadeiro.jpg",
+                    "dificuldade": "Fácil",
+                    "tempo": "30min"
                 },
                 {
                     "nomeReceita": "Beijinho",
                     "ingredientes": ["1 lata de leite condensado", "3 colheres de sopa de leite em pó", "1 colher de sopa de margarina", "Coco ralado para enrolar"],
                     "preparo": "Coloque todos os ingredientes em uma panela e mexa em fogo baixo até desgrudar do fundo, por cerca de 10 minutos. Enrole os beijinhos e passe no coco ralado.",
-                    "imagem": "/img/beijinho.jpg"
+                    "imagem": "/img/beijinho.jpg",
+                    "dificuldade": "Fácil",
+                    "tempo": "30min"
                 }
             ]
         },
@@ -25,13 +29,17 @@
                     "nomeReceita": "Pipoca",
                     "ingredientes": ["1/2 xícara de milho para pipoca", "2 colheres de sopa de óleo", "Sal a gosto"],
                     "preparo": "Aqueça o óleo em uma panela, adicione o milho e tampe. Agite a panela até os grãos estourarem. Tempere com sal a gosto.",
-                    "imagem": "/img/pipoca.jpg"
+                    "imagem": "/img/pipoca.jpg",
+                    "dificuldade": "Fácil",
+                    "tempo": "5min"
                 },
                 {
                     "nomeReceita": "Torta de Frango",
                     "ingredientes": ["1 peito de frango cozido e desfiado", "1 cebola picada", "1 tomate picado", "Sal e temperos a gosto", "Massa pronta ou caseira para torta"],
                     "preparo": "Refogue o frango com os temperos e prepare a massa. Coloque o recheio sobre a massa, cubra com a outra parte e leve ao forno até dourar.",
-                    "imagem": "/img/tortafrango.jpg"
+                    "imagem": "/img/tortafrango.jpg",
+                    "dificuldade": "Médio",
+                    "tempo": "1h30min"
                 }
             ]
         }
